@@ -1,0 +1,87 @@
+export const projects = [
+  {
+    slug: 'face-health-analyzer',
+    title: 'Face Health Analyzer',
+    short: 'Computer vision app for health-related face analysis',
+    role: 'Research & Development, Frontend, Integration',
+    tech: ['Python','TensorFlow','React','Next.js'],
+    problem: 'Provide automated analysis of facial features for preliminary health screening.',
+    solution: 'An interface that uploads images or uses webcam, runs CV models, and returns structured insights with clear explanations.',
+    features: ['Image upload & webcam capture','Model inference & explainability','Result export & reporting'],
+    screenshots: ['/screenshots/face-health-analyzer-1.svg','/screenshots/face-health-analyzer-2.svg'],
+    architecture: 'Client (Next.js) -> API (Node/Flask) -> ML model (TensorFlow) -> Results & Dashboard',
+    github: 'https://github.com/mainaavictor',
+    liveDemo: ''
+  },
+  {
+    slug: 'cliq-adventures',
+    title: 'Cliq Adventures Website',
+    short: 'Tourism website with booking and content',
+    role: 'Lead Developer, UX, Content Strategy',
+    tech: ['Next.js','Tailwind CSS'],
+    problem: 'A tourism operator needed a modern web presence and booking funnel.',
+    solution: 'Responsive website with content, booking flow, and contact automation.',
+    features: ['Responsive UX','Booking funnel','Content management guidance'],
+    screenshots: ['/screenshots/cliq-adventures-1.svg','/screenshots/cliq-adventures-2.svg'],
+    architecture: 'Static site (Next.js) + Headless CMS or simple backend for bookings',
+    github: 'https://github.com/mainaavictor',
+    liveDemo: ''
+  },
+  {
+    slug: 'jawamu-farm',
+    title: 'Jawamu Farm Digital Presence',
+    short: 'Digital presence and social media strategy for an agricultural business',
+    role: 'Digital Marketing & Website',
+    tech: ['Social Media','Content','React'],
+    problem: 'Jawamu Farm needed better digital reach and clearer branding.',
+    solution: 'Coordinated content strategy, website and social presence to drive interest.',
+    features: ['Branding','Social content calendars','Website & contact funnels'],
+    screenshots: ['/screenshots/jawamu-farm-1.svg','/screenshots/jawamu-farm-2.svg'],
+    architecture: 'Marketing & content-first approach; website + social channels',
+    github: 'https://github.com/mainaavictor',
+    liveDemo: ''
+  },
+  {
+    slug: 'pebble-wifi',
+    title: 'Pebble WiFi (Concept)',
+    short: 'WiFi connectivity & payment platform with admin dashboard',
+    role: 'System Design, Frontend, Integration',
+    tech: ['Node.js','React','Stripe','Websockets'],
+    problem: 'Manage paid WiFi access and user authentication for public internet services.',
+    solution: 'Platform that handles authentication, payments, and admin user management.',
+    features: ['Authentication & payments concept','Admin dashboard','User management'],
+    screenshots: ['/screenshots/pebble-wifi-1.svg','/screenshots/pebble-wifi-2.svg'],
+    architecture: 'Captive portal -> Auth/API -> Payment gateway -> Admin dashboard',
+    github: 'https://github.com/mainaavictor',
+    liveDemo: ''
+  }
+  ,
+  {
+    slug: 'elearning-platform',
+    title: 'Elearning Platform',
+    short: 'Custom e-learning platform for courses, assessments and progress tracking',
+    role: 'Frontend, Backend, Integration',
+    tech: ['Next.js','React','Node.js','PostgreSQL'],
+    problem: 'Provide scalable course delivery and student management for online education.',
+    solution: 'A platform with course authoring, enrollment, assessments and reporting for instructors and learners.',
+    features: ['Course management','Enrollment & payments','Assessments & reporting','Instructor dashboard'],
+    screenshots: ['/screenshots/elearning-1.svg','/screenshots/elearning-2.svg'],
+    architecture: 'Client (Next.js) -> API (Node) -> Database (Postgres) -> Payments & Auth',
+    github: 'https://github.com/mainaavictor',
+    liveDemo: ''
+  },
+  {
+    slug: 'mt5-dashboard',
+    title: 'MT5 Dashboard (in progress)',
+    short: 'Dashboard for managing MT5 trading accounts and broker operations',
+    role: 'Frontend, Integration',
+    tech: ['React','Next.js','Node.js'],
+    problem: 'Provide a unified control panel for trading operations and account monitoring.',
+    solution: 'Real-time dashboard integrating MT5 data feeds, account metrics and administrative controls.',
+    features: ['Account monitoring','Real-time metrics','Admin controls'],
+    screenshots: ['/screenshots/mt5-1.svg'],
+    architecture: 'MT5 API -> Backend API -> Client dashboard',
+    github: '',
+    liveDemo: ''
+  }
+]

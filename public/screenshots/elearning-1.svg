@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#060613"/>
+  <rect x="60" y="60" width="1080" height="680" rx="16" fill="url(#g)" opacity="0.12"/>
+  <g fill="#cdeaff" font-family="Inter, Arial, sans-serif">
+    <text x="120" y="220" font-size="48" font-weight="700">Elearning Platform</text>
+    <text x="120" y="300" font-size="20" fill="#9fb8d6">Course authoring · Enrollments · Assessments · Reporting</text>
+  </g>
+  <rect x="120" y="360" width="360" height="200" rx="8" fill="#0b1220" stroke="#ffffff11"/>
+  <rect x="520" y="360" width="360" height="200" rx="8" fill="#0b1220" stroke="#ffffff11"/>
+  <rect x="920" y="360" width="120" height="200" rx="8" fill="#0b1220" stroke="#ffffff11"/>
+</svg>

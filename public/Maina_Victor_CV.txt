@@ -1,0 +1,3 @@
+Maina Victor — CV placeholder
+
+Replace this file with a real PDF named `Maina_Victor_CV.pdf` in the public/ folder.

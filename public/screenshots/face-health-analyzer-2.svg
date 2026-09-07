@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480">
+  <rect width="800" height="480" fill="#071029" />
+  <g transform="translate(40,40)">
+    <rect width="720" height="400" rx="12" fill="#07172a" stroke="#254060" />
+    <text x="30" y="60" fill="#CDEFD8" font-size="24" font-family="Inter, sans-serif">Face Health Analyzer — Model Output Mockup</text>
+  </g>
+</svg>
